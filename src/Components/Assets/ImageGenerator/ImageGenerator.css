@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
+    margin-bottom: 20px;
     gap: 30px;
 }
 
@@ -60,10 +61,35 @@
     align-items: center;
     justify-content: center;
     width: 150px;
-    height: 30px;
+    height: 40px;
     font-size: 20px;
-    border-radius: 10px;
+    border-radius: 50px;
     background: hsl(312, 89%, 47%);
     cursor: pointer;
 
+}
+
+.loading-bar{
+    margin-top: 10px;
+    width: 0px;
+    height: 8px;
+    background-color: hsl(312, 89%, 47%);
+    border-radius: 10px;
+
+}
+
+.loading-text{
+    font-size: 18px;
+}
+
+.loading-bar-full{
+    margin-top: 10px;
+    width: 412px;
+    height: 8px;
+    background-color: hsl(312, 89%, 47%);
+    border-radius: 10px;
+    transition: 15s;
+}
+.display-none{
+    display:none;
 }
